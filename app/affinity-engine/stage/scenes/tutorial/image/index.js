@@ -4,6 +4,6 @@ import ReplayableScriptMixin from 'affinity-engine-web/mixins/replayable-script'
 
 export default Scene.extend(ReplayableScriptMixin, {
   start: task(function * (script) {
-    script.image('diy');
+    yield script.image('diy');
   })
 });

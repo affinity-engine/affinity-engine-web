@@ -9,7 +9,7 @@ const { inject: { service } } = Ember;
 
 export default Component.extend({
   classNames: ['engine-container', 'engine-container-for-tutorial'],
-  isFocused: true,
+  isFocused: false,
   intl: service(),
 
   config: { },

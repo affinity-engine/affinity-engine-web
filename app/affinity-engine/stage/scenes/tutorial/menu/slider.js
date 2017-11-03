@@ -4,7 +4,7 @@ import ReplayableScriptMixin from 'affinity-engine-web/mixins/replayable-script'
 
 export default Scene.extend(ReplayableScriptMixin, {
   start: task(function * (script) {
-    const food = yield script.menu([{ key: 'engines.tutorial.menu.kale.key', text: 'engines.tutorial.menu.kale.text' }, { key: 'engines.tutorial.menu.kimchi.key', text: 'engines.tutorial.menu.kimchi.text' }, { key: 'engines.tutorial.menu.almonds.key', text: 'engines.tutorial.menu.almonds.text' }, { key: 'engines.tutorial.menu.custom.key', text: 'engines.tutorial.menu.custom.text', inputable: true }], { text: 'engines.tutorial.menu.text1' });
+    yield script.menu([{ key: 'engines.tutorial.menu.kale.key', text: 'engines.tutorial.menu.kale.text' }, { key: 'engines.tutorial.menu.kimchi.key', text: 'engines.tutorial.menu.kimchi.text' }, { key: 'engines.tutorial.menu.almonds.key', text: 'engines.tutorial.menu.almonds.text' }, { key: 'engines.tutorial.menu.custom.key', text: 'engines.tutorial.menu.custom.text', inputable: true }], { text: 'engines.tutorial.menu.text1' });
     const amount = yield script.menu([{
       text: 'engines.tutorial.menu.text2',
       slider: {

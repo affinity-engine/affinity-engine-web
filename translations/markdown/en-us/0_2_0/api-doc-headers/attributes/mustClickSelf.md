@@ -1,0 +1,1 @@
+###### `mustClickSelf` (**Boolean**)

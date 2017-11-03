@@ -9,6 +9,6 @@ export default Scene.extend(ReplayableScriptMixin, {
   start: task(function * (script) {
     this.get('soundManager').clearSounds();
 
-    script.sound('spacewolf');
+    yield script.sound('spacewolf');
   })
 });
