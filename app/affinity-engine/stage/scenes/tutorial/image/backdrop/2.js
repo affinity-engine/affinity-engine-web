@@ -4,6 +4,7 @@ import ReplayableScriptMixin from 'affinity-engine-web/mixins/replayable-script'
 
 export default Scene.extend(ReplayableScriptMixin, {
   start: task(function * (script) {
-    yield script.backdrop('bedroom').fadeIn();
+    script.character('diy').fadeIn();
+    script.backdrop('bedroom').fadeIn();
   })
 });

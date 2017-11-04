@@ -192,29 +192,16 @@ export default Service.extend({
                   routes: {
                     index: {
                       name: t('overview')
-                    }, defaults: {
-                      name: t('defaults')
                     }, usage: {
                       name: t('usage')
+                    }, defaults: {
+                      name: t('defaults')
                     }, 'configuration-tiers': {
                       name: t('configurationTiers')
                     }
                   }
                 }, fixtures: {
-                  name: t('fixtures'),
-                  routes: {
-                    index: {
-                      name: t('overview')
-                    }, backdrops: {
-                      name: t('backdrops')
-                    }, characters: {
-                      name: t('characters')
-                    }, images: {
-                      name: t('images')
-                    }, keyframes: {
-                      name: t('keyframes')
-                    }
-                  }
+                  name: t('fixtures')
                 }
               }
             }, stage: {

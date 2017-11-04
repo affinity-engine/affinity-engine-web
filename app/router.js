@@ -75,12 +75,7 @@ Router.map(function() {
         this.route('usage');
         this.route('configuration-tiers');
       });
-      this.route('fixtures', function() {
-        this.route('images');
-        this.route('keyframes');
-        this.route('characters');
-        this.route('backdrops');
-      });
+      this.route('fixtures');
     });
     this.route('stage', function() {
       this.route('scenes', function() {
