@@ -78,9 +78,7 @@ Router.map(function() {
       this.route('fixtures');
     });
     this.route('stage', function() {
-      this.route('scenes', function() {
-        this.route('data');
-      });
+      this.route('scenes');
       this.route('directions', function() {
         this.route('text');
         this.route('menu');
@@ -96,6 +94,7 @@ Router.map(function() {
       });
       this.route('usage');
       this.route('links');
+      this.route('data');
     });
     this.route('components', function() {
       this.route('menu-bar', function() {

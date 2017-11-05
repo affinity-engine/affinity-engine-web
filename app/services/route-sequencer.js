@@ -212,14 +212,7 @@ export default Service.extend({
                 }, usage: {
                   name: t('usage')
                 }, scenes: {
-                  name: t('scenes'),
-                  routes: {
-                    index: {
-                      name: t('overview')
-                    }, data: {
-                      name: t('data')
-                    }
-                  }
+                  name: t('scenes')
                 }, directions: {
                   name: t('directions'),
                   routes: {
@@ -254,6 +247,8 @@ export default Service.extend({
                     operator: '>=',
                     threshold: '0.2'
                   }
+                }, data: {
+                  name: t('data')
                 }
               }
             }, components: {
