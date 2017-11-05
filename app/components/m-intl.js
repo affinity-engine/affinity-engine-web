@@ -23,13 +23,15 @@ const converter = markdownit({
 
 function scrollToAnchor(anchor) {
   if (anchor) {
-    const position = Ember.$(`a[name="${anchor}"]`).position();
+    Ember.run.later(() => {
+      const position = Ember.$(`a[name="${anchor}"]`).position();
 
-    if (position) {
-      const $main = Ember.$('.main');
+      if (position) {
+        const $main = Ember.$('.main');
 
-      $main.scrollTop(position.top + $main.position().top);
-    }
+        $main.scrollTop(position.top + $main.position().top);
+      }
+    }, 50);
   }
 }
 
