@@ -117,6 +117,14 @@ Router.map(function() {
       this.route('translator-ember-intl');
       this.route('icon-font-awesome');
     });
+    this.route('styles', function() {
+      this.route('block');
+      this.route('coastal');
+      this.route('full');
+      this.route('caption');
+      this.route('paper');
+      this.route('transparent');
+    });
   });
 });
 

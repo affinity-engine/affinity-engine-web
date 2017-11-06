@@ -305,6 +305,25 @@ export default Service.extend({
                   name: t('translatorEmberIntl')
                 }
               }
+            }, styles: {
+              name: t('styles'),
+              routes: {
+                index: {
+                  name: t('overview')
+                }, block: {
+                  name: t('block')
+                }, caption: {
+                  name: t('caption')
+                }, full: {
+                  name: t('full')
+                }, coastal: {
+                  name: t('coastal')
+                }, paper: {
+                  name: t('paper')
+                }, transparent: {
+                  name: t('transparent')
+                }
+              }
             }
           }
         }
