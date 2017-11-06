@@ -261,6 +261,8 @@ export default Service.extend({
                   routes: {
                     index: {
                       name: t('overview')
+                    }, usage: {
+                      name: t('usage')
                     }, buttons: {
                       name: t('buttons'),
                       routes: {
@@ -293,6 +295,8 @@ export default Service.extend({
                   name: t('animatorVelocity')
                 }, 'data-manager-rewindable-lokijs': {
                   name: t('dataManagerRewindableLokijs')
+                }, 'icon-font-awesome': {
+                  name: t('iconFontAwesome')
                 }, 'preloader-createjs': {
                   name: t('preloaderCreatejs')
                 }, 'sound-manager-createjs': {

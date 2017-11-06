@@ -105,6 +105,7 @@ Router.map(function() {
           this.route('rewind');
           this.route('save');
         });
+        this.route('usage');
       });
       this.route('curtain', function() {});
     });
@@ -114,6 +115,7 @@ Router.map(function() {
       this.route('preloader-createjs');
       this.route('sound-manager-createjs');
       this.route('translator-ember-intl');
+      this.route('icon-font-awesome');
     });
   });
 });

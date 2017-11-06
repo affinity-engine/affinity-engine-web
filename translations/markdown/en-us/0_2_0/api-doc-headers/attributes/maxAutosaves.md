@@ -1,1 +1,1 @@
-#### `maxAutosaves` (**Number**)
+##### `maxAutosaves` (**Number**)

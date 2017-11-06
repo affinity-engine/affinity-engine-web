@@ -40,6 +40,7 @@ application:
     height: "height"
     howToUseThisDocumentation: "How to Use This Documentation"
     htmlTags: "HTML tags"
+    iconFontAwesome: "icon-font-awesome"
     Image: "Image"
     image: "image"
     images: "images"
