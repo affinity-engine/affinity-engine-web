@@ -43,6 +43,11 @@ module.exports = function(environment) {
     ENV.APP.rootElement = '#ember-testing';
   }
 
+  if (environment === 'itch') {
+    ENV.rootURL = '';
+    ENV.locationType = 'hash';
+  }
+
   if (environment === 'production') {
     ENV.locationType = 'hash';
   }
