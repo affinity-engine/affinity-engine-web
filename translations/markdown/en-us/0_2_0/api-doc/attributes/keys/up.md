@@ -1,1 +1,1 @@
-Which key strokes fire the `up` event.
+Which key strokes fire the `moveUp` event.

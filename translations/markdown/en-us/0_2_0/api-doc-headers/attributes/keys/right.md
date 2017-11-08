@@ -1,1 +1,1 @@
-###### `keys.right` (**Array**)
+###### `keys.moveRight` (**Array**)

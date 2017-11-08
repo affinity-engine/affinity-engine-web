@@ -1,1 +1,1 @@
-Which key strokes fire the `down` event.
+Which key strokes fire the `moveDown` event.

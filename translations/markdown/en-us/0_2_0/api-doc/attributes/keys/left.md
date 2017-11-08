@@ -1,1 +1,1 @@
-Which key strokes fire the `left` event.
+Which key strokes fire the `moveLeft` event.

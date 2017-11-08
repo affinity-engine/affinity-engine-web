@@ -1,1 +1,1 @@
-Which key strokes fire the `right` event.
+Which key strokes fire the `moveRight` event.
